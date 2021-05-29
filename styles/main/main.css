@@ -10,7 +10,7 @@
     font-size: 40px;
     line-height: 52px;
     /* identical to box height */
-    margin: 0 0 32px;
+    margin: 0;
     color: #212121;
 }
 
@@ -51,20 +51,25 @@
 
   .latest {
     max-width: 100%;
+    margin-bottom: 80px;
   }
 
-    .latest__wrapper {
-        display: flex;
-        width: 100%;
-        margin: 0 auto;
-        justify-content: space-between;
-    }
+.latest__wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 32px auto 48px;
+    justify-content: space-between;
+}
 
   .card-preview {
       max-width: 395px;
       display: flex;
       flex-direction: column;
-  }
+      margin-bottom: 48px;
+  } :last-child {
+          margin-bottom: 0;
+      }
 
   .card-preview__image{
       max-width: 100%;
@@ -97,3 +102,43 @@
       color: #212121;
   }
 
+  .collection-container {
+      width: 837px;
+      background: linear-gradient(285.58deg, rgba(255, 175, 204, 0.5) -31.08%, rgba(55, 55, 55, 0.5) 111.22%),
+      url(../../images/collection-mindal.jpg);
+      border-radius: 24px;
+  }
+
+  .collection-text {
+      width: 509px;
+      margin: 64px 264px 193px 64px;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 48px;
+      line-height: 62px;
+      /*white-space: pre;*/
+      color: #FFFFFF;
+  }
+
+  .popular {
+      max-width: 100%;
+  }
+
+  .popular__wrapper {
+      display: flex;
+      flex-wrap: wrap;
+      width: 838px;
+      justify-content: space-between;
+  }
+
+  .pleasure-container {
+      width: 387px;
+
+
+      border-radius: 24px;
+  }
+
+  .flex-wrapper {
+      display: flex;
+      margin: 32px auto 163px;
+  }
