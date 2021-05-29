@@ -1,13 +1,11 @@
 .header {
     width: 100%;
-    border: 1px solid red;
     margin-bottom: 48px;
 }
 
 .header__top-menu-wrapper{
     max-width: 1280px;
     background: #FFFF;
-    border: 1px solid red;
     margin: 0 auto;
     padding: 22px 0;
 }
@@ -21,12 +19,10 @@
 
 .header__top-menu{
     max-width: 1280px;
-    border: 1px solid red;
 }
 
 .header__bottom-menu{
     width: 100%;
-    border: 1px solid red;
     margin: 0 auto;
 }
 
@@ -35,7 +31,6 @@
     width: 159px;
     height: 64px;
     background: #EB7B7B;
-    border: 1px solid red;
 }
 
 .top-menu {
