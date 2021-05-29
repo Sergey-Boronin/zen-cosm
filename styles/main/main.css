@@ -1,10 +1,20 @@
-.main-page-container {
+.main {
     max-width: 1280px;
     margin: 0 auto;
     border: 1px solid red;
 }
 
-.some-div {
+.main__title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 52px;
+    /* identical to box height */
+    margin: 0 0 32px;
+    color: #212121;
+}
+
+.offer {
     display: flex;
     margin-bottom: 64px;
     margin-bottom: 64px;
@@ -12,7 +22,7 @@
     border: 1px solid red;
 }
 
-.some-container {
+.offer__slider {
     width: 838px;
     height: 296px;
     background: linear-gradient(107.04deg, #F3F3F3 11.26%, #E2DDFF 156.68%);
@@ -20,7 +30,7 @@
     margin: 0 47px 0 0;
 }
 
-.sale-container {
+.offer__sale {
     width: 395px;
     height: 296px;
     background: linear-gradient(107.04deg, #F3F3F3 11.26%, #E2DDFF 156.68%);
@@ -28,7 +38,7 @@
     padding: 0;
 }
 
-.sale-container__paragraph {
+.offer__text {
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
@@ -38,3 +48,52 @@
 } :last-child {
     margin-top: 0;
   }
+
+  .latest {
+    max-width: 100%;
+  }
+
+    .latest__wrapper {
+        display: flex;
+        width: 100%;
+        margin: 0 auto;
+        justify-content: space-between;
+    }
+
+  .card-preview {
+      max-width: 395px;
+      display: flex;
+      flex-direction: column;
+  }
+
+  .card-preview__image{
+      max-width: 100%;
+      margin-bottom: 8px;
+  }
+
+  .card-preview__description {
+    display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+  }
+
+  .card-preview__text {
+      width: 60%;
+      font-style: normal;
+      font-weight: 300;
+      font-size: 24px;
+      line-height: 31px;
+      text-align: center;
+      color: #212121;
+      margin: 0 0 16px;
+  }
+
+  .card-preview__price {
+      font-style: normal;
+      font-weight: normal;
+      font-size: 28px;
+      line-height: 36px;
+      color: #212121;
+  }
+

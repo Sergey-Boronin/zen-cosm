@@ -91,12 +91,15 @@
 }
 
 .cart {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     position: relative;
-    margin-top: 18px;
-    margin-bottom: 12px;
+    padding-top: 4px;
 }
 
 .cart__text {
+    display: block;
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
@@ -114,7 +117,7 @@
     width: 100%;
     border: none;
     background: #4E4E4E;
-;
+    padding: 0;
 }
 
 .cart__counter {
@@ -130,7 +133,9 @@
     color: #FFFFFF;
     text-align: center;
     margin: 0;
-    right: 0;
-    top: 0;
-
+    right: -3px;
+    top: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
