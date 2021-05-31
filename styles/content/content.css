@@ -1,0 +1,121 @@
+.content {
+    display: flex;
+    flex-direction: column;
+    margin: 56px auto 79px;
+}
+
+.content__wrapper {
+    display: flex;
+    margin-bottom: 32px;
+}
+
+.content__img {
+
+}
+
+.content__details {
+    max-width: 616px;
+    margin-left: 159px;
+    display: flex;
+    flex-direction: column;
+}
+
+.content__title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 52px;
+    white-space: pre-wrap;
+    color: #212121;
+    margin: 0 0 38px 0;
+    text-align: left;
+}
+
+.content__paragraph {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 21px;
+    margin: 0 0 38px 0;
+    color: #555555;
+}
+
+.content__price {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 48px;
+    line-height: 62px;
+    margin: 0 0 51px 0;
+    color: #212121;
+
+}
+
+.content__details_wrapper {
+    display: flex;
+}
+
+.content__pictures {
+    display: flex;
+    max-width: 325px;
+    margin-bottom: 64px;
+    justify-content: space-between;
+}
+
+.content__image_small {
+    margin-right: 32px;
+} :last-child {
+    margin-right: 0;
+  }
+
+.content__counter {
+    max-width: 174px;
+    display: flex;
+    margin-right: 47px;
+}
+
+.content__counter_btn {
+    width: 63px;
+    height: 62px;
+    background: #F3F3F3;
+    border-radius: 16px;
+    border: none;
+}
+
+.content__counter_value {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 26px;
+    /* identical to box height */
+
+
+    color: #000000;
+
+    margin: 18px;
+}
+
+.content__add-to-cart {
+    width: 191px;
+    border: 2px solid #EB7B7B;
+    box-sizing: border-box;
+    border-radius: 16px;
+    background: #FFFFFF;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 26px;
+    /* identical to box height */
+
+
+    color: #EB7B7B;
+
+}
+
+.content__description {
+    max-width: 837px;
+    margin-bottom: 65px;
+}
+
+.content__else-container{
+    display: flex;
+}
