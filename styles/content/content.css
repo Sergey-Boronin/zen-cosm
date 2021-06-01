@@ -21,6 +21,7 @@
 }
 
 .content__title {
+    max-width: 600px;
     font-style: normal;
     font-weight: bold;
     font-size: 40px;
@@ -63,9 +64,7 @@
 
 .content__image_small {
     margin-right: 32px;
-} :last-child {
-    margin-right: 0;
-  }
+}
 
 .content__counter {
     max-width: 174px;
