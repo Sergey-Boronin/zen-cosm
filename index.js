@@ -38,6 +38,8 @@ const resetButton = document.querySelector('.cartmodal__clear-cart');
 
 console.log(increaseButton, decreaseButton,'increaseButton')
 
+const allCounters = document.querySelectorAll('.counter__value');
+
 function createCounter() {
     let counter = 0;
 
