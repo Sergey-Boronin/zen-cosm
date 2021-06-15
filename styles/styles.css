@@ -4,6 +4,9 @@
 @import url('./content/content.css');
 @import url('./breadcrumb/breadcrumb.css');
 @import url('./cart/cart.css');
+@import url('./wrappers.css');
+@import url('./items-section/items-section.css');
+@import url('./catalog/catalog.css');
 
 
 body{

@@ -69,6 +69,10 @@
           margin-bottom: 0;
       }
 
+  .card-preview__grid {
+    max-width: 285px;
+  }
+
   .card-preview__image{
       max-width: 100%;
       margin-bottom: 8px;

@@ -1,0 +1,28 @@
+.items-section {
+    display: flex;
+    flex-direction: column;
+    max-width: 951px;
+
+    margin: 61px 0 197px 49px;
+}
+
+.items-section__select {
+    width: 203px;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    font-family: IBM Plex Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 21px;
+    color: #000000;
+
+}
+
+.items-section-grid {
+    display: grid;
+    grid-template-columns: 285px 285px 285px;
+    grid-gap: 48px;
+    max-width: 951px;
+    max-height: 1176px;
+}
